@@ -1,4 +1,4 @@
-# monoeci Message Verification and Signing for Bitcore-monoeci
+# Monoeci Message Verification and Signing for Bitcore-monoeci
 
 
 [![NPM Package](https://img.shields.io/npm/v/bitcore-message-monoeci.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-message-monoeci)
