@@ -1,4 +1,4 @@
-var bitcore = require('bitcore-lib-monacocoin');
+var bitcore = require('bitcore-lib-monoeci');
 bitcore.Message = require('./lib/message');
 
 module.exports = bitcore.Message;

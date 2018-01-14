@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-message-monacocoin",
+  "name": "bitcore-message-monoeci",
   "version": "1.0.6",
-  "description": "monacocoin Messages for Bitcore-monacocoin",
+  "description": "monoeci Messages for Bitcore-monoeci",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -11,20 +11,20 @@
     "build": "gulp"
   },
   "keywords": [
-    "monacocoin",
-    "bitcore-monacocoin",
+    "monoeci",
+    "bitcore-monoeci",
     "message",
     "signing"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/monacocoin-net/bitcore-message-monacocoin.git"
+    "url": "https://github.com/monoeci-net/bitcore-message-monoeci.git"
   },
   "dependencies": {
-    "bitcore-lib-monacocoin": "^0.15.1"
+    "bitcore-lib-monoeci": "^0.15.1"
   },
   "devDependencies": {
-    "bitcore-build-monacocoin": "=0.8.3",
+    "bitcore-build-monoeci": "=0.8.3",
     "brfs": "^1.3.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10"

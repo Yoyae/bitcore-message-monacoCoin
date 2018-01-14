@@ -1,18 +1,18 @@
 {
-  "name": "bitcore-message-monacocoin",
+  "name": "bitcore-message-monoeci",
   "main": "./bitcore-message.min.js",
   "version": "1.0.4",
-  "homepage": "https://github.com/monacocoin-net/bitcore-message-monacocoin",
+  "homepage": "https://github.com/yoyae/bitcore-message-monoeci",
   "authors": [
     "BitPay"
   ],
-  "description": "Bitcoin Message Verification and Signing for Bitcore",
+  "description": "Bitcoin Message Verification and Signing for Monoeci",
   "moduleType": [
     "globals"
   ],
   "keywords": [
     "bitcoin",
-    "bitcore",
+    "monoeci",
     "btc",
     "satoshi",
     "message",

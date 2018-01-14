@@ -1,29 +1,29 @@
-# monacocoin Message Verification and Signing for Bitcore-monacocoin
+# monoeci Message Verification and Signing for Bitcore-monoeci
 
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-message-monacocoin.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-message-monacocoin)
-[![Build Status](https://img.shields.io/travis/monacocoinpay/bitcore-message-monacocoin.svg?branch=master&style=flat-square)](https://travis-ci.org/monacocoinpay/bitcore-message-monacocoin)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-message-monacocoin.svg?style=flat-square)](https://coveralls.io/r/monacocoinpay/bitcore-message-monacocoin?branch=master)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-message-monoeci.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-message-monoeci)
+[![Build Status](https://img.shields.io/travis/yoyae/bitcore-message-monoeci.svg?branch=master&style=flat-square)](https://travis-ci.org/yoyae/bitcore-message-monoeci)
+[![Coverage Status](https://img.shields.io/coveralls/yoyae/bitcore-message-monoeci.svg?style=flat-square)](https://coveralls.io/r/yoyae/bitcore-message-monoeci?branch=master)
 
-bitcore-message-monacocoin adds support for verifying and signing monacocoin messages in [Node.js](http://nodejs.org/) and web browsers.
+bitcore-message-monoeci adds support for verifying and signing monoeci messages in [Node.js](http://nodejs.org/) and web browsers.
 
-See [the main bitcore-monacocoin repo](https://github.com/monacocoinpay/bitcore-monacocoin) for more information.
+See [the main bitcore-monoeci repo](https://github.com/yoyae/bitcore-monoeci) for more information.
 
 ## Getting Started
 
 ```sh
-npm install bitcore-message-monacocoin
+npm install bitcore-message-monoeci
 ```
 
 ```sh
-bower install bitcore-message-monacocoin
+bower install bitcore-message-monoeci
 ```
 
 To sign a message:
 
 ```javascript
-var bitcore = require('bitcore-lib-monacocoin');
-var Message = require('bitcore-message-monacocoin');
+var bitcore = require('bitcore-lib-monoeci');
+var Message = require('bitcore-message-monoeci');
 
 var privateKey = bitcore.PrivateKey.fromWIF('cPBn5A4ikZvBTQ8D7NnvHZYCAxzDZ5Z2TSGW2LkyPiLxqYaJPBW4');
 var signature = Message('hello, world').sign(privateKey);
@@ -39,7 +39,7 @@ var verified = Message('hello, world').verify(address, signature);
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/monacocoinpay/bitcore-monacocoin/blob/master/CONTRIBUTING.md) on the main bitcore-monacocoin repo for information about how to contribute.
+See [CONTRIBUTING.md](https://github.com/yoyae/bitcore-monoeci/blob/master/CONTRIBUTING.md) on the main bitcore-monoeci repo for information about how to contribute.
 
 ## License
 
